@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* ID em HTML é .# em CSS
+class em HTML é . em CSS*/
+
+
+
+/* posso ter varias class em um documento mas só posso ter um id de mesmo nome em cada página*/
+
+body {
+    background-color: rgba(162, 243, 151, 0.644);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(100, 187, 93);
+}
+
+h1#principal {
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+
+h2 { 
+    color: rgb(68, 114, 64);
+
+}
+
+.basico {
+    color: rgba(221, 221, 105, 0.76);
+    font-weight: bold;
+}
+.destaque {
+    background-color: rgba(153, 153, 65, 0.603);
+}

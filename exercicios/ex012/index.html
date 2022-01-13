@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em dispositivos de diferentes tamanhos ou diminua e aumente o tamanho do seu navegador. </p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+     <img src="imagens/imagem-g.png" alt="Imagem flexível">   
+    </picture>
+    <h1>Reproduzindo áudio.</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midias/X2Download.com - Alexis Ffrench - Story of You (128 kbps).mp3" autoplay controls loop></audio> <!-- é assim que se adiciona um áudio no site; ele aguenta MP3(mpeg) WAVE e OGG; masm, para adicionar varios formatos é necessário utilizar o source, como lá no vídeo-->
+
+    <h1>Vídeo</h1>
+    <p>Agora vamos adicionar um vídeo.</p>
+    <!-- é assim que se adiciona um vídeo  -->
+    <video width="560px" poster="midias/thumb.png" controls>
+        <source src="midias/pexels-ekaterina-bolovtsova-6690101.mp4" type="video/mp4">
+        <source src="midias/pexels-ekaterina-bolovtsova-6690101.m4v" type="video/m4v">
+        <p>O vídeo não pode ser reproduzido no seu navegador.</p>
+    </video>
+    <h1>Vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2iaPuUFIyMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- esse vídeo foi adicionado via incorporação do youtube-->
+
+    
+
+        
+    </body>
+</html>

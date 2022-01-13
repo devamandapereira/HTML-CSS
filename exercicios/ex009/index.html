@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte/Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('test')</code> é escrito em linguagem JavaScript</p>
+    <p>Aqui foi utilizada a tag CODE, para uniformizar o tamanho deste comando, sem a tag ficaria (document.getElementById('test')); assim, nota-se letras maiores que outras. </p>
+    <code>
+        <pre>
+            num = int(imput('Digite um número'))
+            if num %2 ==0;
+                print (f'O número {num}é PAR')
+            else
+                print(f'O número {num} é ÍMPAR)
+            print ('Fim do programa')
+        </pre>  <!-- A tag pre mostra o código na página do jeito que é descrito; com os espaços, a quebra de página sem a necessidade do <br>, etc. Sem ela o código é mostrado na página sem identação, frase ao lado de frase, sem quebras de linha. -->   
+        <!-- Sift + Tab retira os espaços; Tab da espaçamento.-->
+    </code>
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido.</q></p> <!-- a tag Q faz uma citação.-->
+    <h3>A tag Q faz uma citação.</h3>
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos: </p>
+    <blockquote cite="https://www.amazon.com.br/HTML-XHTML-CSS-para-leigos/dp/8576086972">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto. 
+    </blockquote>
+    <h3>A tag BLOCKQUOTE CITE = Faz uma citação completa como foi demonstrada acima. </h3>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="cascading Style Sheets">CSS</abbr>. Estou adorando.</p>
+    <h3>A tag ABBR abrevia o que foi escrito; como HTML é uma sigla, utilizando ABBR é possível descrever, de maneira extensa, o que HTML significa. A interação ocorre ao passar o cursor do mouse em cima da sigla. </h3>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+    <h3>A tag BDO deixa o texto ao contrário. </h3>
+</body>
+</html>
